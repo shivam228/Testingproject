@@ -15,9 +15,6 @@ public class CalorieCalculatorTest {
         res=calorieCalculator.calculate(10,'F',0,0,0);
         assertEquals("Invalid Inputs", res);
 
-        res=calorieCalculator.calculate(30,'m',1.60,75,-1);
-        assertEquals("error encountered", res);
-
         res=calorieCalculator.calculate(78,'M',1.70,70,1);
         assertNotEquals("Invalid Inputs", res);
 
