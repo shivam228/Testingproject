@@ -13,6 +13,9 @@ public class PowerTest {
         assertEquals(8, res);
         res = power.power(2,-2);
         assertEquals(-1, res);
+        //test case for prime path coverage
+        res = power.power(2,1);
+        assertEquals(2, res);
 
     }
 }

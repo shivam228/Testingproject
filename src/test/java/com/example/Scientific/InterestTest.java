@@ -14,8 +14,6 @@ public class InterestTest {
         assertEquals(-1, res);
         res = inte.interest(15, -2, 2);
         assertEquals(-1, res);
-        res = inte.interest(15, 2, -2);
-        assertEquals(-1, res);
         res = inte.interest(1500, 2, 2);
         assertEquals(60, res);
 
