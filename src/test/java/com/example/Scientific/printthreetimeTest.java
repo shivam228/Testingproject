@@ -10,12 +10,12 @@ public class printthreetimeTest {
     int res;
     @Test
     public void calculate() {
-        res = three.print(0);
+        res = three.print(0,0);
         assertEquals(0, res);
-        res = three.print(1);
-        assertEquals(3, res);
-        res = three.print(2);
-        assertEquals(9, res);
+        res = three.print(1,0);
+        assertEquals(0, res);
+        res = three.print(2,1);
+        assertEquals(4, res);
 
     }
 }
