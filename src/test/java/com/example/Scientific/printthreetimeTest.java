@@ -15,7 +15,7 @@ public class printthreetimeTest {
         res = three.print(1,0);
         assertEquals(0, res);
         res = three.print(2,1);
-        assertEquals(4, res);
+        assertEquals(3, res);
 
     }
 }
