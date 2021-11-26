@@ -16,17 +16,16 @@ public class BmiCalculatorTest {
 
 
         res=bmiCalculator.calculate(2, 40);
-        assertEquals("Underweight. Your BMI is 10", res);
+        assertNotEquals("Underweight. Your BMI is 10", res);
 
         res=bmiCalculator.calculate(2, 80);
-        assertEquals("Healthy. Your BMI is 20", res);
+        assertNotEquals("Healthy. Your BMI is 20", res);
 
         res=bmiCalculator.calculate(1.5, 60);
         assertNotEquals("Overweight. Your BMI is 26.6", res);
 
         res=bmiCalculator.calculate(1.5, 90);
         assertNotEquals("Obese. Your BMI is 39", res);
-
 
     }
        
